@@ -1,0 +1,432 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+html,body{
+  font-family: 'Segoe UI',Tahoma,Geneva, Verdana,sans-serif;
+}
+a{
+  text-decoration: none;
+  color:white;
+}
+
+#navbar{
+  background-color: black;
+}
+#navbar .contenitore{
+  display: flex;
+  background-color:black;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+#navbar .contenitore ul{
+  display: flex;
+  padding-right: 20px;
+  justify-content: center;
+}
+#navbar .contenitore ul li{
+  flex-direction: column;
+  list-style: none;
+  margin: auto;
+}
+#navbar .contenitore h3{
+  padding-left: 20px;
+  color:white;
+  display: block;
+}
+#navbar .contenitore ul li a{
+  display: block;
+  padding: 20px;
+}
+#navbar ul li a:hover,
+#navbar ul li.current{
+  color:gray;
+  /*background:gray;*/
+}
+#navabar .homeli:hover{
+  color:gray;
+  display: block;
+}
+#showcase .contenitore{
+  display: flex;
+  height:600px;
+  background: url('img/contatti.png') no-repeat center center/cover;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#showcase .contenitore a{
+  margin: 20 px;
+}
+#showcase .contenitore h1{
+  color:#fff;
+  font-size: 40px;
+  font-style:oblique;
+
+}
+.btn{
+  display: inline-block;
+  font-size: 15px;
+  color: #fff;
+  background: #333;
+  padding: 15px 20px;
+  border: none;
+  margin:20px;
+}
+.btn2{
+  display: inline-block;
+  font-size: 15px;
+  color: #fff;
+  background: #333;
+  padding: 20px 30px;
+  border: none;
+  margin:20px;
+}
+.btn:hover{
+  background-color: grey;
+  padding:17px 22px;
+  margin:18px;
+}
+.btn2:hover{
+  background-color: grey;
+  padding:17px 22px;
+  margin:18px;
+}
+#pensiero .frase{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  flex-direction: column;
+}
+#pensiero .frase .asd{
+  font-size: 25px;
+  justify-content: center;
+  text-align: center;
+  padding:20px;
+  font-style:Helvetica ;
+}
+#anteprimachisono{
+  height:300px;
+  background-color: #efefef;
+
+  margin-bottom: 20px;
+}
+#anteprimachisono .contenitore{
+  background-color: #efefef;
+  border: 1px solid lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#anteprimachisono .contenitore .immagine .immaginesam{
+  padding: 150px;
+  margin: 50px;
+  border-radius: 20px 20px;
+  background: url('img/samuele.PNG') center center/cover;
+}
+#anteprimachisono .contenitore .testo{
+  margin:50px;
+  padding:50px;
+}
+#anteprimachisono .contenitore .testo p,
+#anteprimachisono .contenitore .testo h2,
+#anteprimachisono .contenitore .testo a {
+  margin:10px;
+}
+#anteprimachisono .contenitore .testo a
+{
+  color:blue;
+}
+#indexcontatti{
+  background: url('img/sfondonero.jpg') center center/cover;
+}
+#portfoliowatch .frase{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  flex-direction: column;
+  margin:35px;
+  margin-top: 70px;
+}
+#portfoliowatch .frase .asd{
+  font-size: 30px;
+  justify-content: center;
+  text-align: center;
+  padding:30px;
+  font-style:Sans-serif;
+}
+#portfoliowatch a{
+  color:blue;
+
+}
+#indexcontatti .contenitore{
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#indexcontatti .contenitore p,
+#indexcontatti .contenitore h2,
+#indexcontatti .contenitore .btnconte{
+  margin:15px;
+  color: #fff;
+}
+.btnconte{
+  margin:400px;
+}
+#indexcontatti .btncont{
+  color:blue;
+}
+#indexcontatti .btncont:hover{
+  color:lightblue;
+}
+/*
+#anteprima .contenitore{
+  background-color: red;
+  display: flex;
+  align-items: center;
+}
+#anteprima .contenitore .box1,
+#anteprima .contenitore .box2,
+#anteprima .contenitore .box3{
+
+  flex:1;
+  height: 200px;
+  padding:50px 0px;
+  margin:50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+/*#anteprima i{
+  padding-bottom: 20px;
+  font-size: 50px;
+  color:white;
+}
+#anteprima h3{
+  font-style: italic;
+  text-align: center;
+  color:white;
+}
+#anteprima .box1{
+  background: url('img/ufficio.jpg') no-repeat center center/cover;
+  border-radius: 20px 20px;
+}
+#anteprima .box2{
+  background: url('img/whiteboard.jpg') no-repeat center center/cover;
+  border-radius: 20px 20px;
+}
+}
+#anteprima .box3{
+  background: url('img/studia.jpg') no-repeat center center/cover;
+  border-radius: 20px 20px;
+}
+*/
+
+/*Footer*/
+#footer{
+  display: flex;
+  height: 5px;
+  padding: 25px 0;
+  text-align: center;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+}
+#footer p{
+  color:white;
+}
+
+#sudime{
+
+}
+#sudime .contenitore{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#sudime .contenitore .immagine{
+  background: url('img/samuele.PNG') no-repeat center center/cover;
+  margin:20px;
+  padding:100px;
+  border-radius: 50%;
+
+}
+#sudime .contenitore .testo{
+  color:white;
+  margin: 10px;
+  padding: 30px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgray;
+  background:url('img/stelle.jpg') center center/cover;
+  border-radius: 20px 20px;
+}
+#sudime .contenitore .testo p{
+  margin: 5px;
+}
+#sudime .contenitore .testo h2{
+  margin: 10px;
+}
+
+#percorso{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+#percorso .contenitore{
+  background:url('img/mondo.jpg') center center/cover;
+  display: flex;
+  margin:130px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  border-radius: 20px 20px;
+}
+#percorso .contenitore .p{
+  display: flex;
+  margin:20px;
+  padding:30px 80px;
+  background-color:#efefef;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px 20px;
+  border: 1px solid gray;
+}
+#percorso .contenitore h1{
+  color: white;
+  font-size: 30px;
+}
+/*------ Cover -------*/
+.btnprogetto{
+  display: inline-block;
+  font-size: 15px;
+  color: black;
+  background: white;
+  padding: 15px 20px;
+  border: none;
+  margin:20px;
+  border-radius: 20px 20px;
+  border: 1px solid black;
+}
+.btnprogetto:hover{
+  font-size: 20px;
+}
+
+#cover .contenitorecover{
+  display: flex;
+  background: url("img/portfolio.jpg");
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+#cover h1{
+  font-size: 40px;
+  font-style:italic;
+}
+#progetti{
+  padding:50px;
+  background-color: #efefef;
+}
+#progetti .contenitoreprogetti{
+
+  display: flex;
+  height:250px;
+  align-items: center;
+}
+#progetti .contenitoreprogetti .box1, .box2, .box3, .box4, .box5 ,.box6{
+  background-color: lightgray;
+  flex:1;
+  height: 200px;
+  padding:50px 0px;
+  margin:50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px 20px;
+}
+#progetti .box1{
+  background: url('img/funnelmarketing.jpg') no-repeat center center/cover;
+}
+#progetti .box2{
+  background: url('img/funnel.jpg')no-repeat center center/cover;
+}
+
+#progetti .box3{
+  background: url('img/email.jpg')no-repeat center center/cover;
+}
+#progetti .box4{
+  background: url('img/startup.jpg')no-repeat center center/cover;
+}
+#progetti .box5{
+  background: url('img/whiteboard.jpg')no-repeat center center/cover;
+}
+#progetti .box6{
+  background: url('img/automazioni.jpg')no-repeat center center/cover;
+}
+/*----Contatti---*/
+#contact-form{
+  padding: 2rem 5rem;
+  border:1px solid;
+}
+#contact-form input,
+#contact-form textarea{
+  width: 100%;
+  padding:10px;
+  border:1px solid gray;
+}
+
+#contact-form label{
+  margin-bottom: 5px;
+  display: block;
+}
+#contact-form h3{
+  padding-bottom:20px;
+  padding-top: 20px;
+
+}
+#contact-form textarea{
+  height: 180px;
+}
+#contact-form .formgroup{
+  margin-bottom: 20px;
+}
+#contact-form .input:focus,
+#contact-form .textarea:focus{
+  outline:none;
+  border-color: #555;
+}
+#contact-info .contenitore{
+  display: flex;
+  background-color: black;
+  justify-content: space-around;
+}
+#contact-info .box{
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+  padding:30px;
+
+}
+#contact-info .contenitore p{
+  color:white;
+  padding:10px;
+}
+#contact-info .contenitore i{
+  color:white;
+  padding:20px;
+  font-size: 30px;
+}
